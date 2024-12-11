@@ -1,0 +1,47 @@
+[2024-09-14T20:48:18.192+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-09-14T20:48:18.236+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.airbyte_trigger_sync manual__2024-09-14T20:48:15.825626+00:00 [queued]>
+[2024-09-14T20:48:18.259+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.airbyte_trigger_sync manual__2024-09-14T20:48:15.825626+00:00 [queued]>
+[2024-09-14T20:48:18.261+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-09-14T20:48:18.297+0000] {taskinstance.py:2330} INFO - Executing <Task(AirbyteTriggerSyncOperator): airbyte_trigger_sync> on 2024-09-14 20:48:15.825626+00:00
+[2024-09-14T20:48:18.314+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'airbyte_sync_tables_postgres', 'airbyte_trigger_sync', 'manual__2024-09-14T20:48:15.825626+00:00', '--job-id', '3', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_sync_tables_postgres.py', '--cfg-path', '/tmp/tmp0c40ftv4']
+[2024-09-14T20:48:18.323+0000] {standard_task_runner.py:91} INFO - Job 3: Subtask airbyte_trigger_sync
+[2024-09-14T20:48:18.323+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=225) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-09-14T20:48:18.325+0000] {standard_task_runner.py:64} INFO - Started process 226 to run task
+[2024-09-14T20:48:18.415+0000] {task_command.py:426} INFO - Running <TaskInstance: airbyte_sync_tables_postgres.airbyte_trigger_sync manual__2024-09-14T20:48:15.825626+00:00 [running]> on host e532e2e16082
+[2024-09-14T20:48:18.597+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vizentec-engdados' AIRFLOW_CTX_DAG_ID='airbyte_sync_tables_postgres' AIRFLOW_CTX_TASK_ID='airbyte_trigger_sync' AIRFLOW_CTX_EXECUTION_DATE='2024-09-14T20:48:15.825626+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-09-14T20:48:15.825626+00:00'
+[2024-09-14T20:48:18.599+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-09-14T20:48:18.710+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-09-14T20:48:18.736+0000] {taskinstance.py:2905} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 465, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 432, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 401, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 86, in execute
+    job_object = hook.submit_sync_connection(connection_id=self.connection_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 185, in submit_sync_connection
+    return self.run(
+           ^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/hooks/http.py", line 167, in run
+    session = self.get_conn(headers)
+              ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/providers/http/hooks/http.py", line 108, in get_conn
+    conn = self.get_connection(self.http_conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/hooks/base.py", line 83, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/connection.py", line 519, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `airbyte_conn` isn't defined
+[2024-09-14T20:48:18.761+0000] {taskinstance.py:1206} INFO - Marking task as FAILED. dag_id=airbyte_sync_tables_postgres, task_id=airbyte_trigger_sync, run_id=manual__2024-09-14T20:48:15.825626+00:00, execution_date=20240914T204815, start_date=20240914T204818, end_date=20240914T204818
+[2024-09-14T20:48:18.822+0000] {standard_task_runner.py:110} ERROR - Failed to execute job 3 for task airbyte_trigger_sync (The conn_id `airbyte_conn` isn't defined; 226)
+[2024-09-14T20:48:18.866+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 1
+[2024-09-14T20:48:18.904+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-09-14T20:48:18.916+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

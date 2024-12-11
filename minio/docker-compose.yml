@@ -1,0 +1,49 @@
+version: "3.8"
+
+services:
+  minio:
+    image: "minio/minio:latest"
+    container_name: minio
+    hostname: minio
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    command: server /data --console-address ":9001"
+    environment:
+      MINIO_ACCESS_KEY: minio
+      MINIO_SECRET_KEY: minio123
+    networks:
+      - shared_network  # Conecta à rede externa
+
+  mariadb:
+    container_name: mariadb
+    hostname: mariadb
+    image: mariadb:10.5.8
+    ports:
+      - 3307:3306
+    environment:
+      - MYSQL_ROOT_PASSWORD=admin
+      - MYSQL_USER=admin
+      - MYSQL_PASSWORD=admin
+      - MYSQL_DATABASE=metastore_db
+    networks:
+      - shared_network  # Conecta à rede externa
+
+  hive-metastore:
+    container_name: hive-metastore
+    hostname: hive-metastore
+    image: 'bitsondatadev/hive-metastore:latest'
+    ports:
+      - 9083:9083 # Metastore Thrift
+    volumes:
+      - ./config_hive/metastore-site.xml:/opt/apache-hive-metastore-3.0.0-bin/conf/metastore-site.xml:ro
+    environment:
+      - METASTORE_DB_HOSTNAME=mariadb
+    depends_on:
+      - mariadb
+    networks:
+      - shared_network  # Conecta à rede externa
+
+networks:
+  shared_network:
+    external: true

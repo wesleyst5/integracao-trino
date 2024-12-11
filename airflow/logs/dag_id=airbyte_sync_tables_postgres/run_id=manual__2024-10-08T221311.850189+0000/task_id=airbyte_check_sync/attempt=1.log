@@ -1,0 +1,25 @@
+[2024-10-08T22:13:27.043+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-10-08T22:13:27.091+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.airbyte_check_sync manual__2024-10-08T22:13:11.850189+00:00 [queued]>
+[2024-10-08T22:13:27.115+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.airbyte_check_sync manual__2024-10-08T22:13:11.850189+00:00 [queued]>
+[2024-10-08T22:13:27.117+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-10-08T22:13:27.162+0000] {taskinstance.py:2330} INFO - Executing <Task(AirbyteJobSensor): airbyte_check_sync> on 2024-10-08 22:13:11.850189+00:00
+[2024-10-08T22:13:27.177+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'airbyte_sync_tables_postgres', 'airbyte_check_sync', 'manual__2024-10-08T22:13:11.850189+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_sync_tables_postgres.py', '--cfg-path', '/tmp/tmpfpvqfjjt']
+[2024-10-08T22:13:27.181+0000] {standard_task_runner.py:91} INFO - Job 15: Subtask airbyte_check_sync
+[2024-10-08T22:13:27.183+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=265) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-08T22:13:27.184+0000] {standard_task_runner.py:64} INFO - Started process 266 to run task
+[2024-10-08T22:13:27.267+0000] {task_command.py:426} INFO - Running <TaskInstance: airbyte_sync_tables_postgres.airbyte_check_sync manual__2024-10-08T22:13:11.850189+00:00 [running]> on host efbb3a47dac9
+[2024-10-08T22:13:27.504+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vizentec-engdados' AIRFLOW_CTX_DAG_ID='airbyte_sync_tables_postgres' AIRFLOW_CTX_TASK_ID='airbyte_check_sync' AIRFLOW_CTX_EXECUTION_DATE='2024-10-08T22:13:11.850189+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-10-08T22:13:11.850189+00:00'
+[2024-10-08T22:13:27.507+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-10-08T22:13:27.596+0000] {baseoperator.py:400} WARNING - AirbyteJobSensor.execute cannot be called outside TaskInstance!
+[2024-10-08T22:13:27.615+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-08T22:13:27.739+0000] {airbyte.py:113} INFO - Waiting for job 19 to complete.
+[2024-10-08T22:14:27.997+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-08T22:14:28.934+0000] {airbyte.py:113} INFO - Waiting for job 19 to complete.
+[2024-10-08T22:15:29.026+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-08T22:15:30.020+0000] {airbyte.py:108} INFO - Job 19 completed successfully.
+[2024-10-08T22:15:30.025+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2024-10-08T22:15:30.043+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-10-08T22:15:30.097+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=airbyte_sync_tables_postgres, task_id=airbyte_check_sync, run_id=manual__2024-10-08T22:13:11.850189+00:00, execution_date=20241008T221311, start_date=20241008T221327, end_date=20241008T221530
+[2024-10-08T22:15:30.319+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-10-08T22:15:30.572+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-08T22:15:30.585+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

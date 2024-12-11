@@ -1,0 +1,24 @@
+{
+  "tableName": "fluxo",
+  "schemaName": "demo",
+  "topicName": "topic-fluxo",
+  "key": {
+    "dataFormat": "raw",
+    "fields": []
+  },
+  "message": {
+    "dataFormat": "json",
+    "fields": [
+      {
+        "name": "id",
+        "mapping": "id",
+        "type": "INTEGER"
+      },
+      {
+        "name": "quantidade",
+        "mapping": "quantidade",
+        "type": "INTEGER"
+      }
+    ]
+  }
+}

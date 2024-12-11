@@ -1,0 +1,784 @@
+[2024-11-07T00:00:27.339+0000] {processor.py:161} INFO - Started process (PID=8340) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:27.341+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:00:27.345+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:00:27.344+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:27.376+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:00:27.367+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:00:27.379+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:27.459+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.134 seconds
+[2024-11-07T00:00:58.128+0000] {processor.py:161} INFO - Started process (PID=8362) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:58.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:00:58.133+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:00:58.132+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:58.154+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:00:58.149+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:00:58.156+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:00:58.187+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.066 seconds
+[2024-11-07T00:01:28.780+0000] {processor.py:161} INFO - Started process (PID=8384) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:28.782+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:01:28.785+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:01:28.784+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:28.811+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:01:28.806+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:01:28.813+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:28.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.068 seconds
+[2024-11-07T00:01:59.407+0000] {processor.py:161} INFO - Started process (PID=8406) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:59.408+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:01:59.413+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:01:59.412+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:59.447+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:01:59.440+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:01:59.450+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:01:59.475+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.075 seconds
+[2024-11-07T00:02:30.074+0000] {processor.py:161} INFO - Started process (PID=8428) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:02:30.076+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:02:30.081+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:02:30.080+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:02:30.113+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:02:30.106+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:02:30.116+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:02:30.145+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.080 seconds
+[2024-11-07T00:03:00.753+0000] {processor.py:161} INFO - Started process (PID=8450) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:00.755+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:03:00.758+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:03:00.757+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:00.788+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:03:00.783+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:03:00.790+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:00.817+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.069 seconds
+[2024-11-07T00:03:31.253+0000] {processor.py:161} INFO - Started process (PID=8472) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:31.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:03:31.258+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:03:31.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:31.289+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:03:31.282+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:03:31.292+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:03:31.323+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.082 seconds
+[2024-11-07T00:04:01.853+0000] {processor.py:161} INFO - Started process (PID=8494) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:01.855+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:04:01.858+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:04:01.857+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:01.891+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:04:01.886+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:04:01.892+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:01.921+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.074 seconds
+[2024-11-07T00:04:32.495+0000] {processor.py:161} INFO - Started process (PID=8517) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:32.497+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:04:32.501+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:04:32.500+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:32.524+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:04:32.519+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:04:32.526+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:04:32.556+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.070 seconds
+[2024-11-07T00:05:03.151+0000] {processor.py:161} INFO - Started process (PID=8539) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:03.153+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:05:03.156+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:05:03.155+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:03.192+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:05:03.184+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:05:03.196+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:03.278+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.135 seconds
+[2024-11-07T00:05:33.796+0000] {processor.py:161} INFO - Started process (PID=8561) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:33.798+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:05:33.802+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:05:33.801+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:33.851+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:05:33.839+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:05:33.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:05:33.900+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.117 seconds
+[2024-11-07T00:06:04.393+0000] {processor.py:161} INFO - Started process (PID=8583) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:04.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:06:04.398+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:06:04.397+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:04.436+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:06:04.426+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:06:04.438+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:04.482+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.097 seconds
+[2024-11-07T00:06:35.055+0000] {processor.py:161} INFO - Started process (PID=8605) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:35.057+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:06:35.059+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:06:35.059+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:35.096+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:06:35.089+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:06:35.099+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:06:35.126+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.080 seconds
+[2024-11-07T00:07:05.372+0000] {processor.py:161} INFO - Started process (PID=8627) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:05.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:07:05.402+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:07:05.400+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:05.457+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:07:05.445+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:07:05.461+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:05.522+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.178 seconds
+[2024-11-07T00:07:36.428+0000] {processor.py:161} INFO - Started process (PID=8649) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:36.435+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:07:36.443+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:07:36.442+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:36.497+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:07:36.481+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:07:36.502+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:07:36.565+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.155 seconds
+[2024-11-07T00:08:07.419+0000] {processor.py:161} INFO - Started process (PID=8671) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:07.421+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:08:07.425+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:08:07.423+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:07.461+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:08:07.453+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:08:07.464+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:07.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.091 seconds
+[2024-11-07T00:08:38.253+0000] {processor.py:161} INFO - Started process (PID=8693) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:38.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:08:38.258+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:08:38.258+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:38.285+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:08:38.281+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:08:38.287+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:08:38.318+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.072 seconds
+[2024-11-07T00:09:08.827+0000] {processor.py:161} INFO - Started process (PID=8715) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:08.834+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:09:08.843+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:09:08.842+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:08.896+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:09:08.879+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:09:08.905+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:08.979+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.175 seconds
+[2024-11-07T00:09:39.996+0000] {processor.py:161} INFO - Started process (PID=8737) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:40.000+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:09:40.012+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:09:40.010+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:40.090+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:09:40.068+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:09:40.097+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:09:40.282+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.322 seconds
+[2024-11-07T00:10:10.893+0000] {processor.py:161} INFO - Started process (PID=8759) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:10.895+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:10:10.898+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:10:10.897+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:10.930+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:10:10.922+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:10:10.932+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:10.965+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.079 seconds
+[2024-11-07T00:10:41.627+0000] {processor.py:161} INFO - Started process (PID=8781) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:41.637+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:10:41.646+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:10:41.645+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:41.756+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:10:41.741+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:10:41.760+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:10:41.831+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.236 seconds
+[2024-11-07T00:11:12.483+0000] {processor.py:161} INFO - Started process (PID=8803) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:12.485+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:11:12.488+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:11:12.488+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:12.517+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:11:12.509+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:11:12.520+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:12.566+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.094 seconds
+[2024-11-07T00:11:43.141+0000] {processor.py:161} INFO - Started process (PID=8825) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:43.142+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:11:43.145+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:11:43.145+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:43.179+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:11:43.172+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:11:43.180+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:11:43.205+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.071 seconds
+[2024-11-07T00:12:13.803+0000] {processor.py:161} INFO - Started process (PID=8847) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:13.805+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:12:13.808+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:12:13.807+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:13.833+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:12:13.830+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:12:13.835+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:13.863+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.066 seconds
+[2024-11-07T00:12:44.425+0000] {processor.py:161} INFO - Started process (PID=8869) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:44.427+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:12:44.430+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:12:44.429+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:44.457+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:12:44.452+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:12:44.459+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:12:44.489+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.071 seconds
+[2024-11-07T00:13:15.026+0000] {processor.py:161} INFO - Started process (PID=8892) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:15.028+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:13:15.030+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:13:15.030+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:15.061+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:13:15.054+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:13:15.063+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:15.095+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.077 seconds
+[2024-11-07T00:13:45.707+0000] {processor.py:161} INFO - Started process (PID=8914) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:45.709+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:13:45.712+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:13:45.712+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:45.734+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:13:45.729+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:13:45.737+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:13:45.762+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.063 seconds
+[2024-11-07T00:14:16.191+0000] {processor.py:161} INFO - Started process (PID=8936) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:16.193+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:14:16.196+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:14:16.195+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:16.225+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:14:16.219+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:14:16.227+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:16.263+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.081 seconds
+[2024-11-07T00:14:47.056+0000] {processor.py:161} INFO - Started process (PID=8958) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:47.127+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:14:47.222+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:14:47.220+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:47.754+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:14:47.678+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:14:47.804+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:14:47.946+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.944 seconds
+[2024-11-07T00:15:18.690+0000] {processor.py:161} INFO - Started process (PID=8980) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:18.697+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:15:18.723+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:15:18.713+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:18.886+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:15:18.869+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:15:18.903+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:19.001+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.363 seconds
+[2024-11-07T00:15:49.898+0000] {processor.py:161} INFO - Started process (PID=9001) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:49.906+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:15:49.940+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:15:49.938+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:50.271+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:15:50.214+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:15:50.290+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:15:50.715+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.930 seconds
+[2024-11-07T00:16:22.747+0000] {processor.py:161} INFO - Started process (PID=9023) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:22.765+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:16:22.810+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:16:22.808+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:23.034+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:16:22.968+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:16:23.065+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:23.493+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.876 seconds
+[2024-11-07T00:16:54.235+0000] {processor.py:161} INFO - Started process (PID=9043) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:54.247+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:16:54.269+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:16:54.267+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:54.421+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:16:54.381+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:16:54.455+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:16:54.702+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.562 seconds
+[2024-11-07T00:17:25.843+0000] {processor.py:161} INFO - Started process (PID=9066) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:25.857+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:17:25.899+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:17:25.866+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:26.165+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:17:26.103+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:17:26.236+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:26.537+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.781 seconds
+[2024-11-07T00:17:57.057+0000] {processor.py:161} INFO - Started process (PID=9090) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:57.059+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:17:57.064+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:17:57.063+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:57.108+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:17:57.097+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:17:57.112+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:17:57.163+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.120 seconds
+[2024-11-07T00:18:27.567+0000] {processor.py:161} INFO - Started process (PID=9107) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:27.570+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:18:27.574+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:18:27.573+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:27.615+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:18:27.606+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:18:27.619+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:27.689+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.130 seconds
+[2024-11-07T00:18:58.299+0000] {processor.py:161} INFO - Started process (PID=9130) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:58.301+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:18:58.304+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:18:58.303+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:58.333+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:18:58.326+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:18:58.337+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:18:58.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.109 seconds
+[2024-11-07T00:19:28.953+0000] {processor.py:161} INFO - Started process (PID=9152) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:28.955+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:19:28.959+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:19:28.958+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:29.003+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:19:28.984+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:19:29.006+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:29.043+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.098 seconds
+[2024-11-07T00:19:59.683+0000] {processor.py:161} INFO - Started process (PID=9174) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:59.685+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:19:59.688+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:19:59.687+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:59.726+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:19:59.718+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:19:59.729+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:19:59.769+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.095 seconds
+[2024-11-07T00:20:30.369+0000] {processor.py:161} INFO - Started process (PID=9196) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:20:30.371+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:20:30.374+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:20:30.374+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:20:30.402+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:20:30.394+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:20:30.404+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:20:30.446+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.086 seconds
+[2024-11-07T00:21:00.988+0000] {processor.py:161} INFO - Started process (PID=9225) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:00.991+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:21:01.002+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:21:01.001+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:01.131+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:21:01.116+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:21:01.137+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:01.237+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.266 seconds
+[2024-11-07T00:21:31.859+0000] {processor.py:161} INFO - Started process (PID=9248) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:31.861+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:21:31.864+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:21:31.863+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:31.904+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:21:31.893+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:21:31.907+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:21:31.938+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.089 seconds
+[2024-11-07T00:22:02.465+0000] {processor.py:161} INFO - Started process (PID=9270) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:02.466+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:22:02.470+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:22:02.469+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:02.503+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:22:02.495+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:22:02.506+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:02.536+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.079 seconds
+[2024-11-07T00:22:33.140+0000] {processor.py:161} INFO - Started process (PID=9292) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:33.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:22:33.145+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:22:33.145+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:33.207+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:22:33.167+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:22:33.211+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:22:33.317+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.190 seconds
+[2024-11-07T00:23:03.874+0000] {processor.py:161} INFO - Started process (PID=9314) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:03.876+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:23:03.878+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:23:03.878+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:03.907+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:23:03.902+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:23:03.910+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:03.943+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.077 seconds
+[2024-11-07T00:23:34.500+0000] {processor.py:161} INFO - Started process (PID=9336) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:34.502+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:23:34.504+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:23:34.504+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:34.531+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:23:34.524+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:23:34.533+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:23:34.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.069 seconds
+[2024-11-07T00:24:05.149+0000] {processor.py:161} INFO - Started process (PID=9358) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:05.150+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:24:05.153+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:24:05.153+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:05.209+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:24:05.202+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:24:05.212+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:05.255+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.116 seconds
+[2024-11-07T00:24:35.878+0000] {processor.py:161} INFO - Started process (PID=9380) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:35.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:24:35.883+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:24:35.882+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:35.920+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:24:35.914+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:24:35.923+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:24:35.967+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.097 seconds
+[2024-11-07T00:25:06.548+0000] {processor.py:161} INFO - Started process (PID=9402) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:06.549+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:25:06.552+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:25:06.552+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:06.580+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:25:06.573+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:25:06.584+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:06.631+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.091 seconds
+[2024-11-07T00:25:37.174+0000] {processor.py:161} INFO - Started process (PID=9424) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:37.176+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:25:37.197+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:25:37.197+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:37.228+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:25:37.222+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:25:37.231+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:25:37.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.130 seconds
+[2024-11-07T00:26:07.771+0000] {processor.py:161} INFO - Started process (PID=9446) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:07.773+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:26:07.777+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:26:07.777+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:07.810+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:26:07.803+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:26:07.812+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:07.841+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.077 seconds
+[2024-11-07T00:26:38.392+0000] {processor.py:161} INFO - Started process (PID=9468) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:38.394+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:26:38.397+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:26:38.396+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:38.430+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:26:38.423+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:26:38.434+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:26:38.509+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.125 seconds
+[2024-11-07T00:27:08.993+0000] {processor.py:161} INFO - Started process (PID=9490) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:08.995+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:27:08.999+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:27:08.998+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:09.038+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:27:09.030+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:27:09.041+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:09.072+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.086 seconds
+[2024-11-07T00:27:39.578+0000] {processor.py:161} INFO - Started process (PID=9512) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:39.582+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:27:39.598+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:27:39.597+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:39.637+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:27:39.627+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:27:39.640+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:27:39.734+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.171 seconds
+[2024-11-07T00:28:10.724+0000] {processor.py:161} INFO - Started process (PID=9534) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:10.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:28:10.753+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:28:10.744+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:10.858+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:28:10.843+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:28:10.897+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:11.097+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.446 seconds
+[2024-11-07T00:28:41.835+0000] {processor.py:161} INFO - Started process (PID=9556) to work on /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:41.837+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/etl-cmp-poc.py for tasks to queue
+[2024-11-07T00:28:41.842+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:28:41.841+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:41.913+0000] {logging_mixin.py:188} INFO - [2024-11-07T00:28:41.905+0000] {dagbag.py:355} ERROR - Failed to import: /opt/airflow/dags/etl-cmp-poc.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 351, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/etl-cmp-poc.py", line 4, in <module>
+    from airflow.providers.oracle.hooks.oracle import OracleHook
+ModuleNotFoundError: No module named 'airflow.providers.oracle'
+[2024-11-07T00:28:41.917+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/etl-cmp-poc.py
+[2024-11-07T00:28:42.019+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/etl-cmp-poc.py took 0.196 seconds

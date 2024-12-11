@@ -1,0 +1,34 @@
+version: "3.8"
+
+services:
+
+  trino-coordinator:
+    image: trinodb/trino:latest
+    container_name: trino-coordinator
+    environment:
+      - TRINO_ENVIRONMENT=production
+    volumes:
+      - ./etc:/usr/lib/trino/etc
+      - ./catalog:/etc/trino/catalog
+    ports:
+      - "8080:8080"
+    networks:
+      - shared_network  # Conecta à rede externa
+
+  trino-worker:
+    image: trinodb/trino:latest
+    container_name: trino-worker
+    environment:
+      - TRINO_ENVIRONMENT=production
+      - TRINO_DISCOVERY_URI=http://trino-coordinator:8080
+    volumes:
+      - ./etc:/usr/lib/trino/etc
+      - ./catalog:/etc/trino/catalog
+    depends_on:
+      - trino-coordinator
+    networks:
+      - shared_network  # Conecta à rede externa
+
+networks:
+  shared_network:
+    external: true

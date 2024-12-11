@@ -1,0 +1,27 @@
+
+# Pacote para comunicação com airbyte
+apache-airflow-providers-airbyte==3.9.0
+
+# Pacote para comunicação com PostgreSQL
+apache-airflow-providers-postgres
+psycopg2-binary
+
+# Pacote para conexão com S3
+apache-airflow-providers-amazon
+boto3
+
+# Kafka para consumo de mensagens
+kafka-python
+apache-airflow-providers-apache-kafka
+
+# Pacote para conexão com Cassandra
+cassandra-driver
+apache-airflow-providers-apache-cassandra
+
+# Pandas para manipulação de dados
+pandas
+pyarrow  # Necessário para o formato Parquet
+
+# Outras dependências auxiliares
+fastparquet  # Alternativa ao pyarrow para Parquet
+

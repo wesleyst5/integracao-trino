@@ -1,0 +1,33 @@
+[2024-10-23T11:43:52.006+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2024-10-23T11:43:52.094+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-23T11:43:52.189+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_tables_postgres.sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO scheduled__2024-10-22T00:00:00+00:00 [queued]>
+[2024-10-23T11:43:52.193+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 1
+[2024-10-23T11:43:52.295+0000] {taskinstance.py:2330} INFO - Executing <Task(AirbyteJobSensor): sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO> on 2024-10-22 00:00:00+00:00
+[2024-10-23T11:43:52.311+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'airbyte_sync_tables_postgres', 'sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO', 'scheduled__2024-10-22T00:00:00+00:00', '--job-id', '61', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_sync_tables_postgres.py', '--cfg-path', '/tmp/tmprwcq0vy0']
+[2024-10-23T11:43:52.374+0000] {standard_task_runner.py:91} INFO - Job 61: Subtask sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO
+[2024-10-23T11:43:52.390+0000] {logging_mixin.py:188} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:62 DeprecationWarning: This process (pid=3440) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2024-10-23T11:43:52.394+0000] {standard_task_runner.py:64} INFO - Started process 3442 to run task
+[2024-10-23T11:43:52.701+0000] {task_command.py:426} INFO - Running <TaskInstance: airbyte_sync_tables_postgres.sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO scheduled__2024-10-22T00:00:00+00:00 [running]> on host efbb3a47dac9
+[2024-10-23T11:43:53.300+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='vizentec-engdados' AIRFLOW_CTX_DAG_ID='airbyte_sync_tables_postgres' AIRFLOW_CTX_TASK_ID='sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO' AIRFLOW_CTX_EXECUTION_DATE='2024-10-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-10-22T00:00:00+00:00'
+[2024-10-23T11:43:53.301+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2024-10-23T11:43:53.399+0000] {baseoperator.py:400} WARNING - AirbyteJobSensor.execute cannot be called outside TaskInstance!
+[2024-10-23T11:43:53.481+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:43:53.575+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:44:53.603+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:44:53.680+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:45:53.695+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:45:53.805+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:46:53.820+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:46:53.939+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:47:53.950+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:47:54.049+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:48:54.061+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:48:54.201+0000] {airbyte.py:113} INFO - Waiting for job 28 to complete.
+[2024-10-23T11:49:54.214+0000] {base.py:84} INFO - Using connection ID 'airbyte_conn' for task execution.
+[2024-10-23T11:49:54.693+0000] {airbyte.py:108} INFO - Job 28 completed successfully.
+[2024-10-23T11:49:54.695+0000] {base.py:294} INFO - Success criteria met. Exiting.
+[2024-10-23T11:49:54.697+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2024-10-23T11:49:54.710+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=airbyte_sync_tables_postgres, task_id=sync_schemas.RESTRICAO.airbyte_check_sync_RESTRICAO, run_id=scheduled__2024-10-22T00:00:00+00:00, execution_date=20241022T000000, start_date=20241023T114352, end_date=20241023T114954
+[2024-10-23T11:49:54.772+0000] {local_task_job_runner.py:243} INFO - Task exited with return code 0
+[2024-10-23T11:49:54.812+0000] {taskinstance.py:3503} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-10-23T11:49:54.814+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

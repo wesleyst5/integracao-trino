@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  cassandra:
+    image: cassandra:latest
+    container_name: cassandra_container
+    environment:
+      - CASSANDRA_CLUSTER_NAME=MyCluster
+      - CASSANDRA_NUM_TOKENS=256
+      - CASSANDRA_START_RPC=true
+      - CASSANDRA_ENDPOINT_SNITCH=GossipingPropertyFileSnitch
+    volumes:
+      - cassandra_data:/var/lib/cassandra
+    ports:
+      - "9042:9042"  # Porta padrão do Cassandra
+    networks:
+      - shared_network  # Conecta à rede externa
+
+volumes:
+  cassandra_data:
+    driver: local
+
+networks:
+  shared_network:
+    external: true
