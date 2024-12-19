@@ -9,6 +9,8 @@ services:
       ZOOKEEPER_TICK_TIME: 2000
     ports:
       - "2181:2181"
+    volumes:
+      - zookeeper_data:/var/lib/zookeeper
     networks:
       - shared_network  # Conecta à rede externa
 
@@ -26,6 +28,8 @@ services:
     ports:
       - "9092:9092"
       - "29092:29092"
+    volumes:
+      - kafka_data:/var/lib/kafka/data
     networks:
       - shared_network  # Conecta à rede externa
 
@@ -46,3 +50,9 @@ services:
 networks:
   shared_network:
     external: true
+
+volumes:
+  zookeeper_data:
+    driver: local
+  kafka_data:
+    driver: local
