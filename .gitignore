@@ -1,7 +1,7 @@
 .idea
 .vscode
 poetry.lock
-**__pycache__**
+***__pycache__***
 
 # Ignorar qualquer pasta chamada 'airbyte' em qualquer lugar do repositório
 **/airbyte/
