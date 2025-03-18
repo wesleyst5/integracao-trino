@@ -1,0 +1,23 @@
+.idea
+.vscode
+poetry.lock
+**__pycache__**
+
+# Ignorar qualquer pasta chamada 'airbyte' em qualquer lugar do repositório
+**/airbyte/
+
+# Arquivos e diretórios comuns para ignorar em projetos
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
+
+# Ignorar arquivos de dependências e builds
+node_modules/
+dist/
+build/
+venv/
+.env
+.coverage
+.metals

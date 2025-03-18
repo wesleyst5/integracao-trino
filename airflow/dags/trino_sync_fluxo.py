@@ -55,10 +55,33 @@ def extract_fluxo(**kwargs):
         dt_fim = equip['dataHoraFimfluxoMs']
 
         sql = f"""
-            INSERT INTO s3.default.fluxo (equipamento, data_hora, ano_mes)
+            INSERT INTO s3.default.fluxo (data_hora, classificacao, classificacao_id, codigo_local, data_formatada, faixa,
+                                        fluxo_teste, gap, infracao1, infracao2, infracao3, infracao4, placa, sentido_faixa,
+                                        sequencial_imagem, tamanho_veiculo_dcm, taxa_ocupacao, velocidade_aferida,
+                                        velocidade_considerada, velocidade_media, velocidade_permitida, equipamento, ano_mes)
             SELECT
-                equipamento,
                 data_hora,
+                classificacao,
+                classificacao_id,
+                codigo_local,
+                date_format(from_unixtime(data_hora / 1000), '%Y-%m-%d') AS data_formatada,
+                faixa,
+                fluxo_teste,
+                gap,
+                infracao1,
+                infracao2,
+                infracao3,
+                infracao4,
+                placa,
+                sentido_faixa,
+                sequencial_imagem,
+                tamanho_veiculo_dcm,
+                taxa_ocupacao,
+                velocidade_aferida,
+                velocidade_considerada,
+                velocidade_media,
+                velocidade_permitida,
+                equipamento,
                 date_format(from_unixtime(data_hora / 1000), '%Y-%m') AS ano_mes
             FROM cassandra.fluxokeyspace.fluxo_equipamento_data
             WHERE equipamento = '{codigo}'

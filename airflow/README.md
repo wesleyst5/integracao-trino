@@ -111,7 +111,21 @@ Os logs do Airflow são armazenados no diretório `logs/`. Você pode acessá-lo
    docker-compose run airflow-init
    ```
 
-
+3. **"Reconstruir a imagem do Docker:"**
+    ```bash
+   docker-compose down --volumes
+   ```
+   ```bash
+   docker-compose up --build -d
+   ```
+   ```bash
+   docker exec -it <nome-do-container> /bin/bash
+   pip list | grep apache-airflow-providers-trino
+   ```
+4. **"Testar a importação novamente:"**
+    ```bash
+   python -c "from airflow.providers.trino.hooks.trino import TrinoHook; print(TrinoHook)"
+   ```
 
 
 
